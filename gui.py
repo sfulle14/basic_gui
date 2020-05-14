@@ -54,9 +54,4 @@ viewmenu.add_command(label="Fullscreen", command=None)
 menubar.add_cascade(label="Import", menu=importmenu)
 importmenu.add_command(label="File", command=None)
 
-
-source = Button(root, text = "Import file", command = lambda:open_file())
-source.pack(side=TOP)
-
-
 root.mainloop()
